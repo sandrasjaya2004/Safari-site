@@ -182,3 +182,94 @@ nav {
 .banner-bg:hover {
   transform: scale(1.1);
 }
+
+
+.container-text{
+
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 25px;
+  
+}
+
+.container-fluid h1{
+
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: #090808;
+   
+}
+.container-fluid span{
+
+  color: #f97316;
+}
+.container-title p{
+
+  margin-top: 1px ;
+  color: grey;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+    .category-card {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      margin: 50px 50px;
+    }
+
+    .category-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .category-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    .category-content {
+      position: relative;
+      z-index: 2;
+      padding: 20px;
+    }
+
+    .category-icon {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px;
+      font-size: 28px;
+    }
+
+    .category-title {
+      font-weight: 700;
+      font-size: 1.4rem;
+    }
+
+    .category-text {
+      font-size: 0.95rem;
+    }
